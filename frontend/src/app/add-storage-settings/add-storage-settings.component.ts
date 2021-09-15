@@ -112,7 +112,7 @@ export class AddStorageSettingsComponent implements OnInit {
         },
         error => {
           //  //console.log(error);
-           this.openDialogError(error);;
+           this.openDialogError(error);
           throw error;
   
         }

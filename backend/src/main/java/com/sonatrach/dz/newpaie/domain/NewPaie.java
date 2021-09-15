@@ -56,6 +56,8 @@ public class NewPaie {
 	private BigDecimal mtai17;
 	@Column(name="MT_AI18")
 	private BigDecimal mtai18;
+	@Column(name="MT_AI19")
+	private BigDecimal mtai19;
 	@Column(name="TX_REVAL")
 	private BigDecimal txreval;
 	@Column(name="MT_REVAL")
@@ -317,6 +319,14 @@ public class NewPaie {
 
 	public void setNouvsal(BigDecimal nouvsal) {
 		this.nouvsal = nouvsal;
+	}
+
+	public BigDecimal getMtai19() {
+		return mtai19;
+	}
+
+	public void setMtai19(BigDecimal mtai19) {
+		this.mtai19 = mtai19;
 	}
 
 	

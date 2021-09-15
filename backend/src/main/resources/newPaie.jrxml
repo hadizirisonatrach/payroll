@@ -25,6 +25,7 @@
 	<field name="mtai16" class="java.math.BigDecimal"/>
 	<field name="mtai17" class="java.math.BigDecimal"/>
 	<field name="mtai18" class="java.math.BigDecimal"/>
+	<field name="mtai19" class="java.math.BigDecimal"/>
 	<field name="txreval" class="java.math.BigDecimal"/>
 	<field name="mtreval" class="java.math.BigDecimal"/>
 	<field name="txpri" class="java.math.BigDecimal"/>
@@ -118,7 +119,7 @@
 				<text><![CDATA[MT_AI12]]></text>
 			</staticText>
 			<staticText>
-				<reportElement x="1680" y="0" width="80" height="20" uuid="573550a9-5fc9-41ee-ae4f-7b550868c75d">
+				<reportElement x="1780" y="0" width="80" height="20" uuid="573550a9-5fc9-41ee-ae4f-7b550868c75d">
 					<property name="net.sf.jasperreports.export.xls.white.page.background" value="false"/>
 				</reportElement>
 				<textElement>
@@ -127,7 +128,7 @@
 				<text><![CDATA[TX_REVAL]]></text>
 			</staticText>
 			<staticText>
-				<reportElement x="2160" y="0" width="80" height="20" uuid="573550a9-5fc9-41ee-ae4f-7b550868c75d">
+				<reportElement x="2260" y="0" width="80" height="20" uuid="573550a9-5fc9-41ee-ae4f-7b550868c75d">
 					<property name="net.sf.jasperreports.export.xls.white.page.background" value="false"/>
 				</reportElement>
 				<textElement>
@@ -136,7 +137,7 @@
 				<text><![CDATA[MT_IAG]]></text>
 			</staticText>
 			<staticText>
-				<reportElement x="2240" y="0" width="110" height="20" uuid="573550a9-5fc9-41ee-ae4f-7b550868c75d">
+				<reportElement x="2340" y="0" width="110" height="20" uuid="573550a9-5fc9-41ee-ae4f-7b550868c75d">
 					<property name="net.sf.jasperreports.export.xls.white.page.background" value="false"/>
 				</reportElement>
 				<textElement>
@@ -145,7 +146,7 @@
 				<text><![CDATA[NOUV_SAL]]></text>
 			</staticText>
 			<staticText>
-				<reportElement x="2080" y="0" width="80" height="20" uuid="573550a9-5fc9-41ee-ae4f-7b550868c75d">
+				<reportElement x="2180" y="0" width="80" height="20" uuid="573550a9-5fc9-41ee-ae4f-7b550868c75d">
 					<property name="net.sf.jasperreports.export.xls.white.page.background" value="false"/>
 				</reportElement>
 				<textElement>
@@ -154,7 +155,7 @@
 				<text><![CDATA[MT_PRC]]></text>
 			</staticText>
 			<staticText>
-				<reportElement x="2000" y="0" width="80" height="20" uuid="573550a9-5fc9-41ee-ae4f-7b550868c75d">
+				<reportElement x="2100" y="0" width="80" height="20" uuid="573550a9-5fc9-41ee-ae4f-7b550868c75d">
 					<property name="net.sf.jasperreports.export.xls.white.page.background" value="false"/>
 				</reportElement>
 				<textElement>
@@ -163,7 +164,7 @@
 				<text><![CDATA[MT_PRI]]></text>
 			</staticText>
 			<staticText>
-				<reportElement x="1920" y="0" width="80" height="20" uuid="573550a9-5fc9-41ee-ae4f-7b550868c75d">
+				<reportElement x="2020" y="0" width="80" height="20" uuid="573550a9-5fc9-41ee-ae4f-7b550868c75d">
 					<property name="net.sf.jasperreports.export.xls.white.page.background" value="false"/>
 				</reportElement>
 				<textElement>
@@ -172,7 +173,7 @@
 				<text><![CDATA[TX_PRC]]></text>
 			</staticText>
 			<staticText>
-				<reportElement x="1840" y="0" width="80" height="20" uuid="573550a9-5fc9-41ee-ae4f-7b550868c75d">
+				<reportElement x="1940" y="0" width="80" height="20" uuid="573550a9-5fc9-41ee-ae4f-7b550868c75d">
 					<property name="net.sf.jasperreports.export.xls.white.page.background" value="false"/>
 				</reportElement>
 				<textElement>
@@ -181,7 +182,7 @@
 				<text><![CDATA[TX_PRI]]></text>
 			</staticText>
 			<staticText>
-				<reportElement x="1760" y="0" width="80" height="20" uuid="573550a9-5fc9-41ee-ae4f-7b550868c75d">
+				<reportElement x="1860" y="0" width="80" height="20" uuid="573550a9-5fc9-41ee-ae4f-7b550868c75d">
 					<property name="net.sf.jasperreports.export.xls.white.page.background" value="false"/>
 				</reportElement>
 				<textElement>
@@ -311,10 +312,19 @@
 				</textElement>
 				<text><![CDATA[STR]]></text>
 			</staticText>
+			<staticText>
+				<reportElement x="1680" y="0" width="100" height="20" uuid="78c0e170-ce66-4266-9946-ff93c68c1f2b">
+					<property name="net.sf.jasperreports.export.xls.white.page.background" value="false"/>
+				</reportElement>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[MT_AI19]]></text>
+			</staticText>
 		</band>
 	</columnHeader>
 	<detail>
-		<band height="40" splitType="Stretch">
+		<band height="41" splitType="Stretch">
 			<property name="com.jaspersoft.studio.unit.height" value="px"/>
 			<textField>
 				<reportElement x="0" y="0" width="100" height="40" uuid="652256e2-0f1e-4848-b1d0-d064caaa5020">
@@ -343,56 +353,56 @@
 				<textFieldExpression><![CDATA[$F{mtai14}==null?"":$F{mtai14}]]></textFieldExpression>
 			</textField>
 			<textField pattern="#0.00;#0.00-">
-				<reportElement x="1840" y="0" width="80" height="40" uuid="752c0f18-2dea-4209-bd0d-d787d8c462a8">
+				<reportElement x="1940" y="0" width="80" height="40" uuid="752c0f18-2dea-4209-bd0d-d787d8c462a8">
 					<property name="net.sf.jasperreports.export.xls.white.page.background" value="false"/>
 				</reportElement>
 				<textElement textAlignment="Left"/>
 				<textFieldExpression><![CDATA[$F{txpri}==null?"":$F{txpri}]]></textFieldExpression>
 			</textField>
 			<textField pattern="#0.00;#0.00-">
-				<reportElement x="2240" y="0" width="110" height="40" uuid="752c0f18-2dea-4209-bd0d-d787d8c462a8">
+				<reportElement x="2340" y="0" width="110" height="40" uuid="752c0f18-2dea-4209-bd0d-d787d8c462a8">
 					<property name="net.sf.jasperreports.export.xls.white.page.background" value="false"/>
 				</reportElement>
 				<textElement textAlignment="Left"/>
 				<textFieldExpression><![CDATA[$F{nouvsal}==null?"":$F{nouvsal}]]></textFieldExpression>
 			</textField>
 			<textField pattern="#0.00;#0.00-">
-				<reportElement x="2160" y="0" width="80" height="40" uuid="752c0f18-2dea-4209-bd0d-d787d8c462a8">
+				<reportElement x="2260" y="0" width="80" height="40" uuid="752c0f18-2dea-4209-bd0d-d787d8c462a8">
 					<property name="net.sf.jasperreports.export.xls.white.page.background" value="false"/>
 				</reportElement>
 				<textElement textAlignment="Left"/>
 				<textFieldExpression><![CDATA[$F{mtiag}==null?"":$F{mtiag}]]></textFieldExpression>
 			</textField>
 			<textField pattern="#0.00;#0.00-">
-				<reportElement x="2080" y="0" width="80" height="40" uuid="752c0f18-2dea-4209-bd0d-d787d8c462a8">
+				<reportElement x="2180" y="0" width="80" height="40" uuid="752c0f18-2dea-4209-bd0d-d787d8c462a8">
 					<property name="net.sf.jasperreports.export.xls.white.page.background" value="false"/>
 				</reportElement>
 				<textElement textAlignment="Left"/>
 				<textFieldExpression><![CDATA[$F{mtprc}==null?"":$F{mtprc}]]></textFieldExpression>
 			</textField>
 			<textField pattern="#0.00;#0.00-">
-				<reportElement x="2000" y="0" width="80" height="40" uuid="752c0f18-2dea-4209-bd0d-d787d8c462a8">
+				<reportElement x="2100" y="0" width="80" height="40" uuid="752c0f18-2dea-4209-bd0d-d787d8c462a8">
 					<property name="net.sf.jasperreports.export.xls.white.page.background" value="false"/>
 				</reportElement>
 				<textElement textAlignment="Left"/>
 				<textFieldExpression><![CDATA[$F{mtpri}==null?"":$F{mtpri}]]></textFieldExpression>
 			</textField>
 			<textField pattern="#0.00;#0.00-">
-				<reportElement x="1920" y="0" width="80" height="40" uuid="752c0f18-2dea-4209-bd0d-d787d8c462a8">
+				<reportElement x="2020" y="0" width="80" height="40" uuid="752c0f18-2dea-4209-bd0d-d787d8c462a8">
 					<property name="net.sf.jasperreports.export.xls.white.page.background" value="false"/>
 				</reportElement>
 				<textElement textAlignment="Left"/>
 				<textFieldExpression><![CDATA[$F{txprc}==null?"":$F{txprc}]]></textFieldExpression>
 			</textField>
 			<textField pattern="#0.00;#0.00-">
-				<reportElement x="1760" y="0" width="80" height="40" uuid="752c0f18-2dea-4209-bd0d-d787d8c462a8">
+				<reportElement x="1860" y="0" width="80" height="40" uuid="752c0f18-2dea-4209-bd0d-d787d8c462a8">
 					<property name="net.sf.jasperreports.export.xls.white.page.background" value="false"/>
 				</reportElement>
 				<textElement textAlignment="Left"/>
 				<textFieldExpression><![CDATA[$F{mtreval}==null?"":$F{mtreval}]]></textFieldExpression>
 			</textField>
 			<textField pattern="#0.00;#0.00-">
-				<reportElement x="1680" y="0" width="80" height="40" uuid="752c0f18-2dea-4209-bd0d-d787d8c462a8">
+				<reportElement x="1780" y="0" width="80" height="40" uuid="752c0f18-2dea-4209-bd0d-d787d8c462a8">
 					<property name="net.sf.jasperreports.export.xls.white.page.background" value="false"/>
 				</reportElement>
 				<textElement textAlignment="Left"/>
@@ -523,6 +533,13 @@
 				</reportElement>
 				<textElement textAlignment="Left"/>
 				<textFieldExpression><![CDATA[$F{nom}==null?"":$F{nom}]]></textFieldExpression>
+			</textField>
+			<textField pattern="#0.00;#0.00-">
+				<reportElement x="1680" y="0" width="100" height="40" uuid="eeaecf8d-1a1a-497b-a00d-82a8bf2de0c9">
+					<property name="net.sf.jasperreports.export.xls.white.page.background" value="false"/>
+				</reportElement>
+				<textElement textAlignment="Left"/>
+				<textFieldExpression><![CDATA[$F{mtai19}==null?"":$F{mtai19}]]></textFieldExpression>
 			</textField>
 		</band>
 	</detail>
