@@ -2,6 +2,7 @@
 ----
 -Newpaie (add MTAI19 in newpaie entity ; in jasper report ; in stored proc findnewpaie)
 -supprimer les espaces dans convert.sh
+-chang : id matricule (prob doublons)
 -------------------------------------------------------------------------------------------------
 22.0
 ----

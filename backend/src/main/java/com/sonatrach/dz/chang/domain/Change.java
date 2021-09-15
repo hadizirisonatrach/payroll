@@ -9,9 +9,10 @@ import javax.persistence.Table;
 @Table(name ="PAIE_SYS_CHANG_STR_FCT")
 public class Change {
 
-	@Id
+	
 	@Column(name="STR")
     private String str;
+	@Id
 	@Column(name="MATRICULE")
 	private String mat;
 	@Column(name="NOM_PRENOM")
