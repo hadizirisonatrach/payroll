@@ -2425,7 +2425,7 @@ public class Controller {
 			fileNewPaie = clotureRepo.findByCategory("NEWPAIE");
 
 			List<NewPaie> lesNewpaie = newPaieRepo.findAll();
-
+			
 			// **********************************************get current date from payMonth
 
 			PayMonth currentDate = paymonthRepo.findByState();
